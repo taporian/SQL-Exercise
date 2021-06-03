@@ -55,5 +55,22 @@ WHERE companies.Date <2000
 
 3.SELECT Company from employees where Role="Graphic Designer";
 
+Count and filter
+
+1. SELECT Name ,Points FROM students WHERE points = (SELECT  max( points) from students);
+2. SELECT avg(Points) FROM students;
+
+3. SELECT count (points)
+from students
+where points=500;
+
+4. SELECT Name
+from students
+where students.Name LIKE '%s%'
+
+5. SELECT  *
+from students
+ORDER BY  students.points DESC;
+
 
 
