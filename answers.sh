@@ -16,3 +16,7 @@ WHERE name="Basma";
 UPDATE students
 SET  Points=Points-20
 WHERE name="Alex";
+
+
+
+
